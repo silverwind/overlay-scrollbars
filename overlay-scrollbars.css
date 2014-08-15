@@ -1,0 +1,31 @@
+/* overlay-scrollbars
+ * https://github.com/silverwind/overlay-scrollbars
+ * based on https://userstyles.org/styles/97199/blue-scrollbar-simple
+ */
+
+/* AGENT_SHEET */
+@charset "utf-8";
+
+scrollbar{
+    -moz-appearance: none !important;
+    background: none !important;
+    position: relative !important;
+    border: none !important;
+    z-index: 102400 !important;
+}
+
+scrollbar thumb {
+    -moz-appearance: none !important;
+    border: none !important;
+    padding: 0 0 !important;
+    background: none !important;
+    opacity: 0.66 !important;
+}
+
+scrollbar[orient="vertical"]   thumb { background: linear-gradient(to right, rgba(0,0,0,0) 50%, #666 50.01%) !important; min-height: 70px !important; width: 5px !important }
+scrollbar[orient="horizontal"] thumb { background: #666 !important; min-width: 70px !important; height: 5px !important }
+scrollbar[orient="vertical"]   thumb:hover, scrollbar[orient="vertical"] thumb:active   { opacity: 1 !important }
+scrollbar[orient="horizontal"] thumb:hover, scrollbar[orient="horizontal"] thumb:active { opacity: 1 !important }
+scrollbar[orient="vertical"]   { width: 5px !important; margin-left: -10px !important; margin-right: -1px !important }
+scrollbar[orient="horizontal"] { height: 5px !important; margin-top: -10px !important; margin-bottom: -1px !important }
+scrollbar scrollbarbutton, scrollbar scrollcorner { display: none !important }
