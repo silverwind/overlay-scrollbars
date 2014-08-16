@@ -6,7 +6,7 @@
 /* AGENT_SHEET */
 @charset "utf-8";
 
-scrollbar{
+scrollbar {
     -moz-appearance: none !important;
     background: none !important;
     position: relative !important;
@@ -20,6 +20,7 @@ scrollbar thumb {
     padding: 0 0 !important;
     background: none !important;
     opacity: 0.66 !important;
+    border-radius: none !important;
 }
 
 scrollbar[orient="vertical"]   thumb { background: linear-gradient(to right, rgba(0,0,0,0) 50%, #666 50.01%) !important; min-height: 70px !important; width: 5px !important }
