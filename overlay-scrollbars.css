@@ -18,14 +18,14 @@ scrollbar thumb {
     border: none !important;
     padding: 0 0 !important;
     background: none !important;
-    border-radius: 3px !important;
+    border-radius: 0 !important;
 }
 
-scrollbar[orient="vertical"]   thumb { background: #444 !important; min-height: 50px !important; width: 5px !important }
-scrollbar[orient="horizontal"] thumb { background: #444 !important; min-width: 50px !important; height: 5px !important }
-scrollbar[orient="vertical"]   thumb:hover, scrollbar[orient="vertical"] thumb:active   { background: #666 !important }
-scrollbar[orient="horizontal"] thumb:hover, scrollbar[orient="horizontal"] thumb:active { background: #666 !important }
-scrollbar[orient="vertical"]   { width: 5px !important; margin-left: -5px !important; margin-right: 0 !important  }
+scrollbar[orient="vertical"]   thumb { background: #555 !important; min-height: 5px !important; width: 2px  !important }
+scrollbar[orient="horizontal"] thumb { background: #555 !important; min-width:  5px !important; height: 2px !important }
+scrollbar[orient="vertical"]   thumb:hover, scrollbar[orient="vertical"] thumb:active   { background: #6af !important }
+scrollbar[orient="horizontal"] thumb:hover, scrollbar[orient="horizontal"] thumb:active { background: #6af !important }
+scrollbar[orient="vertical"]   { width: 5px !important; margin-left: -5px !important;  margin-right: 0 !important }
 scrollbar[orient="horizontal"] { height: 5px !important; margin-top: -5px !important; margin-bottom: 0 !important }
 
 scrollbar scrollbarbutton, scrollbar scrollcorner { display: none !important }
