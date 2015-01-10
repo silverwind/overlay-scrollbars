@@ -7,6 +7,7 @@
 
 scrollbar {
     -moz-appearance: none !important;
+    -moz-box-align: start;
     background: none !important;
     position: relative !important;
     border: none !important;
@@ -21,8 +22,8 @@ scrollbar thumb {
     border-radius: 0 !important;
 }
 
-scrollbar[orient="vertical"]   thumb { background: #555 !important; min-height: 5px !important; width: 2px  !important }
-scrollbar[orient="horizontal"] thumb { background: #555 !important; min-width:  5px !important; height: 2px !important }
+scrollbar[orient="vertical"]   thumb { background: #555 !important; min-height: 5px !important; width: 5px  !important }
+scrollbar[orient="horizontal"] thumb { background: #555 !important; min-width:  5px !important; height: 5px !important }
 scrollbar[orient="vertical"]   thumb:hover, scrollbar[orient="vertical"] thumb:active   { background: #6af !important }
 scrollbar[orient="horizontal"] thumb:hover, scrollbar[orient="horizontal"] thumb:active { background: #6af !important }
 scrollbar[orient="vertical"]   { width: 5px !important; margin-left: -5px !important;  margin-right: 0 !important }
