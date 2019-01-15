@@ -1,15 +1,18 @@
 /* ==UserStyle==
 @name         overlay-scrollbars
-@version      2.0.0
+@version      2.0.1
 @description  Global overlay scrollbars for Firefox
 @namespace    silverwind
 @author       silverwind
 @homepageURL  https://github.com/silverwind/overlay-scrollbars
 @supportURL   https://github.com/silverwind/overlay-scrollbars/issues
 @license      BSD-2-clause
+
+@advanced color custom-scrollbar-color "Scrollbar color" rgba(128, 128, 128, .5)"
+@advanced color custom-track-color "Track color" "transparent"
 ==/UserStyle== */
 
 * {
-  scrollbar-color: rgba(128, 128, 128, .5) transparent !important;
+  scrollbar-color: /*[[custom-scrollbar-color]]*/ /*[[custom-track-color]]*/ !important;
   scrollbar-width: thin !important;
 }
